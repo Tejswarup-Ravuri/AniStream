@@ -1,0 +1,23 @@
+
+@media (max-width: 600px) {
+      .header {
+        font-size: 2rem;
+        min-height: 20vh;
+        margin: 16px;
+        padding: 10px;
+        border: 1px solid black;
+      }
+   
+      .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* center horizontally in column */
+        gap: 10px;
+        padding: 20px;
+        min-height: 20vh;
+        margin: 16px;
+        border: 1px solid black;
+      }
+    }
